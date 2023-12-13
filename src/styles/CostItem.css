@@ -1,0 +1,48 @@
+.item {
+  background-color: var(--primaryWhite);
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  transition: all 0.3s linear;
+}
+
+.item:hover {
+  transform: scale(1.01);
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex: 0 0 60%;
+  justify-content: space-between;
+}
+
+.cost {
+  margin-right: 2rem;
+}
+
+.total {
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1px 3px;
+}
+
+.clear-btn,
+.edit-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.clear-btn {
+  color: var(--primaryRed);
+}
+
+.edit-btn {
+  color: var(--primaryGreen);
+}
